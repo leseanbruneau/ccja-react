@@ -1,3 +1,40 @@
+# CCJA - React: Project Description
+
+Code Challenge Journal Application (CCJA) - React
+
+Simple React application to use routing and external Restful API call to pull in data.
+
+## Default project setup
+
+git clone https://github.com/leseanbruneau/ccja-react.git
+
+cd ccja-react
+
+npm install
+
+(Terminal one):  
+json-server --watch db/sprints.json --port 3001
+
+(Terminal two):  
+npm run start
+
+## Change Data Source
+
+/src/axios-instance.js
+/src/components/Sprints.js
+
+Update URL location of Restful API endpoint
+
+Default app setup:
+/db/sampleDataFile.json
+
+Application will pull data from 
+
+Note:  More information regarding running json-server locally, see 
+
+/db/json-server-readme.txt
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

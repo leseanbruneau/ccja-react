@@ -1,0 +1,80 @@
+{
+  "sprints": [
+    {
+      "id": 1,
+      "sprintnbr": 1,
+      "sprinttitle": "First Test Sprint",
+      "sprintgoals": [
+        "This 100 Day Challenge site",
+        "Learn Docker basics, configure, install, deploy and run Docker containers"
+      ],
+      "sprintreview": [
+        "Containers are awesome, wish I could use them at my workplace"
+      ],
+      "days": [
+        {
+          "id": 101,
+          "sprintDay": 1,
+          "challengeDay": 1,
+          "date": "20220101",
+          "dayNotes": [
+            "More examples",
+            "Busy first day",
+            "One more comment"
+          ]
+        },
+        {
+          "id": 102,
+          "sprintDay": 2,
+          "challengeDay": 2,
+          "date": "20220102",
+          "dayNotes": [
+            "Continuing from first day",
+            "Busy second day",
+            "One more thing.."
+          ]
+        },
+        {
+          "id": 103,
+          "sprintDay": 3,
+          "challengeDay": 3,
+          "date": "20220103",
+          "dayNotes": [
+            "Start something new",
+            "no plan, no gain..."
+          ]
+        }        
+      ]
+    },
+    {
+      "id": 2,
+      "sprintnbr": 2,
+      "sprinttitle": "Second Sprint",
+      "sprintgoals": [
+        "Code, Code, Code",
+        "Automated testing"
+      ],
+      "days": [
+        {
+          "id": 201,
+          "sprintDay": 1,
+          "challengeDay": 11,
+          "date": "20220111",
+          "dayNotes": [
+            "code some stuff",
+            "wrote automated tests"
+          ]
+        },
+        {
+          "id": 202,
+          "sprintDay": 2,
+          "challengeDay": 12,
+          "date": "20220112",
+          "dayNotes": [
+            "More coding cool stuff..."
+          ]
+        }
+      ]
+    }    
+  ]
+}
